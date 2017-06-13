@@ -15,7 +15,7 @@ URL:		https://github.com/ContainX/docker-volume-netshare/
 Source0:	https://github.com/ContainX/docker-volume-netshare/archive/v0.34.tar.gz
 
 %{?systemd_requires}
-BuildRequires:  compiler(go-compiler) systemd
+BuildRequires:  compiler(go-compiler) systemd git
 Requires:	docker
 
 %description
