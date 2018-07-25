@@ -28,7 +28,7 @@ BuildRequires: systemd
 %endif
 
 BuildRequires:  golang-bin git
-Requires:	docker
+Requires:	docker or docker-ce
 
 %description
 This is a docker plugin which enables these volume types
